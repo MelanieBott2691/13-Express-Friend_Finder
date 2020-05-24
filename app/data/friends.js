@@ -1,3 +1,4 @@
+// json array to act as database
 var friends = [
     {
         name: "Tom",
