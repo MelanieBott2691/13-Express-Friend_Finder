@@ -1,0 +1,24 @@
+{
+  "name": "13-express-friend_finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelanieBott2691/13-Express-Friend_Finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelanieBott2691/13-Express-Friend_Finder/issues"
+  },
+  "homepage": "https://github.com/MelanieBott2691/13-Express-Friend_Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  }
+}
