@@ -1,4 +1,5 @@
 // json array to act as database
+// array of objects for friends; name, photo and scores of 10 numbers that will be compared to the user input
 var friends = [
     {
         name: "Tom",
