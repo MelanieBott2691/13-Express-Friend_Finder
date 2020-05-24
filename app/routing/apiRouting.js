@@ -46,8 +46,25 @@ app.post("/api/friends", function(req, res) {
         console.log("Total Difference " + totalDifference);
         console.log("Best matched friend diff " + bestMatch.friendDifference);
 
-        
+        var bfriendScore = friends[i].scores.reduce(a, b) => a + b, 0);
+        console.log("Total friend score " + bfriendScore);
+        totalDifference += Math.abs(sum - bfriendScore);
+        console.log("------------------------------------> " + totalDifference);
+
+        // create the if statement that will sum the differences and determine the best match for the best friend
+        if(totalDifference <= bestMatch.friendDifference) {
+            bestMatch.name = friends[i].name;
+            bestMatch.photo = friends[i].photo;
+            bestMatch.friendDifference = totalDifference;
+        }
+        console.log(totalDifference + " Total Difference");
     }
+    // save the users data to the database and return a json with the users best match 
+    console.log(bestMatch);
+    friends.push(userData);
+    console.log("New User added");
+    console.log(userData);
+    res.json(bestMatch);
 });
 };
 
