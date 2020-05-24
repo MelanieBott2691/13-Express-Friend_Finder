@@ -9,4 +9,4 @@ module.exports = function(app) {
     });
 }
 
-created routing paths to apply to buttons and use app.use to make as teh defualt
+// created routing paths to apply to buttons and use app.use to make as the defualt
