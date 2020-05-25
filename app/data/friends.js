@@ -3,32 +3,32 @@
 var friends = [
     {
         name: "Tom",
-        photo: "Image.png",
+        photo: "tom.jpg",
         scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
     },
     {
         name: "Brady",
-        photo: "Image.png",
+        photo: "brady.png",
         scores: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
     },
     {
         name: "Jan",
-        photo: "Image.png",
+        photo: "jan.jpg",
         scores: [4, 1, 4, 4, 5, 1, 2, 5, 4, 4]
     },
     {
         name: "Marsha",
-        photo: "Image.png",
+        photo: "marsha.jpg",
         scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
     },
     {
         name: "Mike",
-        photo: "Image.png",
+        photo: "mike.jpg",
         scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
     },
     {
         name: "Alice",
-        photo: "Image.png",
+        photo: "alice.jpg",
         scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
     }
 ];
