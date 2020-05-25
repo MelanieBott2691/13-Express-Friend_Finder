@@ -115,3 +115,10 @@ See the [Supplemental Heroku Deployment Guide](../../03-Supplemental/HerokuGuide
 
 ### Screenshots of application
 
+* ![Friend Finder](/app/data/images/friend-finder.jpg)
+
+* ![Survey](/app/data/images/bert-survey.jpg)
+
+* ![Friend Match Results](/app/data/images/bert-results.jpg)
+
+
