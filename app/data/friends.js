@@ -13,17 +13,17 @@ var friends = [
     },
     {
         name: "Jan",
-        photo: "./images/jan.jpg",
+        photo: "/images/jan.jpg",
         scores: [1, 1, 1, 4, 1, 1, 2, 5, 1, 4]
     },
     {
         name: "Marsha",
-        photo: "./images/marsha.jpg",
+        photo: "/images/marsha.jpg",
         scores: [5, 1, 4, 4, 5, 1, 2, 4, 3, 4]
     },
     {
         name: "Mike",
-        photo: "./images/mike.jpg",
+        photo: "/images/mike.jpg",
         scores: [5, 5, 4, 4, 5, 5, 4, 5, 4, 4]
     },
     {
