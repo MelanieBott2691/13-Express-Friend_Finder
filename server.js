@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 var app = express();
-var port = process.env.PORT || 8889;
+var port = process.env.PORT || 8080;
 
 // allows express to read the body and then parse that into Json object
 app.use(bodyParser.json());
