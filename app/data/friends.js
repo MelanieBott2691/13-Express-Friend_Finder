@@ -9,12 +9,12 @@ var friends = [
     {
         name: "Brady",
         photo: "./images/brady.png",
-        scores: [3, 2, 4, 4, 5, 1, 2, 5, 4, 1]
+        scores: [3, 2, 3, 3, 3, 1, 2, 3, 3, 1]
     },
     {
         name: "Jan",
         photo: "./images/jan.jpg",
-        scores: [4, 1, 4, 4, 5, 1, 2, 5, 4, 4]
+        scores: [1, 1, 1, 4, 1, 1, 2, 5, 1, 4]
     },
     {
         name: "Marsha",
@@ -24,7 +24,7 @@ var friends = [
     {
         name: "Mike",
         photo: "./images/mike.jpg",
-        scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
+        scores: [5, 5, 4, 4, 5, 5, 4, 5, 4, 4]
     },
     {
         name: "Alice",
