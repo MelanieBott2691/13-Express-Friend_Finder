@@ -1,4 +1,41 @@
 
+/* Home CSS */
+
 #submit {
     background-color:  #581845;
 }
+
+
+
+/* Survey CSS */
+.modal-header {
+    background-image: url("../images/tom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h4.modal-title {
+    font-family: 'Lora', serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+  }
+  
+  button.close {
+    color: white;
+  }
+  
+  .modal-body {
+      text-align: center;
+  }
+  
+  img#friend-photo {
+      max-width: 60%;
+      max-height:none;
+  }
+  
+  @media (max-width: 868px) {
+    h1 {
+      font-size: 400%;
+    }
+  }
