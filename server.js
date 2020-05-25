@@ -19,6 +19,6 @@ require("./app/routing/apiRouting.js")(app);
 
 app.listen(port, () => console.log("Listening on port %s", port));
 
-module.exports = function(app) {
-  //code here
-}
+// module.exports = function(app) {
+//   //code here
+// }
