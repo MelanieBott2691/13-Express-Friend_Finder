@@ -3,33 +3,33 @@
 var friends = [
     {
         name: "Tom",
-        photo: "tom.jpg",
+        photo: "./images/tom.jpg",
         scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
     },
     {
         name: "Brady",
-        photo: "brady.png",
-        scores: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
+        photo: "./images/brady.png",
+        scores: [3, 2, 4, 4, 5, 1, 2, 5, 4, 1]
     },
     {
         name: "Jan",
-        photo: "jan.jpg",
+        photo: "./images/jan.jpg",
         scores: [4, 1, 4, 4, 5, 1, 2, 5, 4, 4]
     },
     {
         name: "Marsha",
-        photo: "marsha.jpg",
-        scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
+        photo: "./images/marsha.jpg",
+        scores: [5, 1, 4, 4, 5, 1, 2, 4, 3, 4]
     },
     {
         name: "Mike",
-        photo: "mike.jpg",
+        photo: "./images/mike.jpg",
         scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
     },
     {
         name: "Alice",
-        photo: "alice.jpg",
-        scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
+        photo: "./images/alice.jpg",
+        scores: [3, 2, 5, 4, 4, 1, 2, 5, 4, 1]
     }
 ];
 
