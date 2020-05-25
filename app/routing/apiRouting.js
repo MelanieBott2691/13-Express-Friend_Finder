@@ -39,14 +39,14 @@ app.post("/api/friends", function(req, res) {
     console.log("Best matched friend diff " + bestMatch.friendDifference);
     console.log("\n++++++++++++++++++==================");
 
-    // create a for loop to loop through all the friends possiblities
+    // create a for loop to loop through all the friends possiblities in the database
     for (var i = 0; i < friends.length; i++) {
         console.log(friends[i].name);
         totalDifference = 0;
         console.log("Total Difference " + totalDifference);
         console.log("Best matched friend diff " + bestMatch.friendDifference);
 
-        var bfriendScore = friends[i].scores.reduce(a, b) => a + b, 0);
+        var bfriendScore = friends[i].scores.reduce((a,b) => a + b, 0);
         console.log("Total friend score " + bfriendScore);
         totalDifference += Math.abs(sum - bfriendScore);
         console.log("------------------------------------> " + totalDifference);
