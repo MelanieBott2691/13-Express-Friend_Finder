@@ -3,12 +3,12 @@
 var friends = [
     {
         name: "Tom",
-        photo: "./images/tom.jpg",
+        photo: "https://www.pexels.com/photo/face-facial-hair-fine-looking-guy-614810/",
         scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
     },
     {
         name: "Brady",
-        photo: "./images/brady.png",
+        photo: "https://www.pexels.com/photo/man-wearing-blue-crew-neck-t-shirt-2379005/",
         scores: [3, 2, 3, 3, 3, 1, 2, 3, 3, 1]
     },
     {
@@ -28,7 +28,7 @@ var friends = [
     },
     {
         name: "Alice",
-        photo: "./images/alice.jpg",
+        photo: "https://www.pexels.com/photo/woman-in-black-tank-top-wearing-eyeglasses-2100063/",
         scores: [3, 2, 5, 4, 4, 1, 2, 5, 4, 1]
     }
 ];
