@@ -8,13 +8,13 @@ This app is a compatibility-based "FriendFinder" application -- basically a dati
 
 Express is used to handle routing. App is deployed to Heroku so other users can fill it out.
 
-* This is a demo version to compare to my application. [this demo version of the site](https://friend-finder-fsf.herokuapp.com/). 
+* This is a demo version to compare to my application. [this is a demo version of what this site is similar to](https://friend-finder-fsf.herokuapp.com/). 
 
 ### To Begin
-* A folder called `FriendFinder` is organized with directories that matches the following:
+* A folder called `13-Express-Friend_Finder` is organized with directories that match the following:
 
   ```
-  FriendFinder
+  Friend_Finder
     - .gitignore
     - app
       - data
@@ -51,7 +51,8 @@ Express is used to handle routing. App is deployed to Heroku so other users can 
 ```json
 {
   "name":"Tom",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
   "scores":[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
 },
 {
@@ -61,27 +62,30 @@ Express is used to handle routing. App is deployed to Heroku so other users can 
 },
 {  
   "name": "Jan",
-  "photo": "./images/jan.jpg",
+  "photo": "https://images.pexels.com/photos/609549/pexels-photo-609549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
   "scores": [1, 1, 1, 4, 1, 1, 2, 5, 1, 4]
 },
 {
   "name": "Marsha",
-  "photo": "./images/marsha.jpg",
+  "photo": "https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
   "scores": [5, 1, 4, 4, 5, 1, 2, 4, 3, 4]
 },
 {
   "name": "Mike",
-  "photo": "./images/mike.jpg",
+  "photo": "https://images.pexels.com/photos/1139743/pexels-photo-1139743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
   "scores": [5, 5, 4, 4, 5, 5, 4, 5, 4, 4]
 },
 {
   "name": "Alice",
-  "photo": "https://www.pexels.com/photo/woman-in-black-tank-top-wearing-eyeglasses-2100063/",
+  "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
   "scores": [3, 2, 5, 4, 4, 1, 2, 5, 4, 1]
 }
 ```
 
-6. The following guide is used to determine the user's most compatible friend:
+6. The following guide was used to determine the user's most compatible friend:
 
    * Convert each user's results into a simple array of numbers (ex: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`).
    * With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the `totalDifference`.
@@ -89,36 +93,35 @@ Express is used to handle routing. App is deployed to Heroku so other users can 
        * User 1: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`
        * User 2: `[3, 2, 6, 4, 5, 1, 2, 5, 4, 1]`
        * Total Difference: **2 + 1 + 2 =** **_5_**
-   * Remember to use the absolute value of the differences. Put another way: no negative solutions! Your app should calculate both `5-3` and `3-5` as `2`, and so on.
    * The closest match will be the user with the least amount of difference.
 
-7. Once you've found the current user's most compatible friend, display the result as a modal pop-up.
-   * The modal should display both the name and picture of the closest match.
+7. Once the current user's most compatible friend is found the results are displayed in a pop-up modal. 
+   * The modal displays both the name and picture of the closest match.
 
 - - -
 
 ### Hosting on Heroku
 
-Now that we have a backend to our applications, we use Heroku for hosting. Please note that while **Heroku is free**, it will request credit card information if you have more than 5 applications at a time or are adding a database.
+This app is hosted on Heroku.
 
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
-
-See the [Supplemental Heroku Deployment Guide](../../03-Supplemental/HerokuGuide.md) for in-detail deployment instructions.
+Please see [Heroku Account](https://devcenter.heroku.com/articles/account-verification) for more details.
 
 - - -
 
-### Link To Portfolio
+### Link To My Portfolio
 
 * [Portfolio](https://melaniebott2691.github.io/09-portfolio-update/)
 
 - - -
 
-### Screenshots of application
+### Screenshots of the Friend Finder application
 
-* ![Friend Finder](/app/data/images/friend-finder.jpg)
+* ![Friend Finder](../data/images/friend-finder.png)
 
-* ![Survey](/app/data/images/bert-survey.jpg)
+* ![Survey](../data/images/SurveyPage.png)
 
-* ![Friend Match Results](/app/data/images/bert-results.jpg)
+* ![Survey Filled Out](../data/images/CompletedSurvey.png)
 
+* ![Friend Match Results](../data/images/newFriendModal.png)
 
+* ![Terminal Output](../data/images/terminalOutput.png)
