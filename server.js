@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 var app = express();
-var port = process.env.PORT || 8089;
+var port = process.env.PORT || 8889;
 
 // allows express to read the body and then parse that into Json object
 app.use(bodyParser.json());
@@ -19,6 +19,3 @@ require("./app/routing/apiRouting.js")(app);
 
 app.listen(port, () => console.log("Listening on port %s", port));
 
-// module.exports = function(app) {
-//   //code here
-// }
