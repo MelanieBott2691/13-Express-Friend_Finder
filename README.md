@@ -9,7 +9,7 @@ This app is a compatibility-based "FriendFinder" application -- basically a dati
 Express is used to handle routing. App is deployed to Heroku so other users can fill it out.
 
 * This is a demo version to compare to my application. [this is a demo version of what this site is similar to](https://friend-finder-fsf.herokuapp.com/). 
-* My application. [app](https://serene-waters-90779.herokuapp.com/).
+* [My application](https://serene-waters-90779.herokuapp.com/).
 
 ### To Begin
 * A folder called `13-Express-Friend_Finder` is organized with directories that match the following:
