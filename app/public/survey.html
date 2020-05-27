@@ -173,15 +173,16 @@
 
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header" style="color: #581845" src="app/data/iamges/friend-header">
+        <div class="modal-header" style="color: #581845">
+        <!-- <img id="myImg" src="../data/iamges/friend-header.jpg"> -->
           <button type="button" class="close" data-dismiss="modal">
               &times;
             </button>
-          <h2 class="modal-title"><strong>Best Match</strong></h2>
+          <h2 class="modal-title"><strong>Meet Your Newest Friend!</strong></h2>
         </div>
 
         <div class="modal-body">
-          <h2 id="match-name" style="color: #581845"></h2>
+          <h2 id="match-name"></h2>
           <img id="match-img" 
           src="" alt="Yay! Making new friends!!!"> 
         </div>
@@ -261,8 +262,8 @@
         $.post("/api/friends", userData, function(data) {
 
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
-          $("#match-name").text("My name is " + data.name + " I can't wait to meet you!");
-          $("img#match-img").attr("src", data.photo);
+          $("#match-name").text("Hi! My name is " + data.name + " I can't wait to meet you!");
+          $("#match-img").attr("src", data.photo);
 
           // Show the modal with the best match
           $("#results-modal").modal("toggle");
@@ -272,6 +273,8 @@
         alert("Please fill out all fields before submitting!");
       }
     });
+    // get image in modal
+    // var img = document.getElementById("myImg")
   </script>
 
 </body>

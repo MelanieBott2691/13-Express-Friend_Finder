@@ -60,7 +60,7 @@ app.post("/api/friends", function(req, res) {
         console.log(totalDifference + " Total Difference");
     }
     // save the users data to the database and return a json with the users best match 
-    console.log(bestMatch);
+    console.log("bestMatch:", bestMatch);
     friends.push(userData);
     console.log("New User added");
     console.log(userData);

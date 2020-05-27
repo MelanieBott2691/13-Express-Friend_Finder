@@ -8,32 +8,31 @@
 
 
 /* Survey CSS */
-.modal-header {
-    background-image: url("../images/tom.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  h4.modal-title {
+
+  h2.modal-title {
     font-family: 'Lora', serif;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     text-align: center;
-    color: white;
+    color: #581845;
   }
   
   button.close {
-    color: white;
+    color: #581845;
   }
   
   .modal-body {
       text-align: center;
   }
   
-  img#friend-photo {
+  img#match-img {
       max-width: 60%;
       max-height:none;
   }
   
+  #match-name {    
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: larger;
+  }
   @media (max-width: 868px) {
     h1 {
       font-size: 400%;
