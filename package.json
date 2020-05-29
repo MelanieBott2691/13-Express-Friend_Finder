@@ -1,6 +1,9 @@
 {
   "name": "13-express-friend_finder",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.17.x"
+  },
   "description": "# Friend Finder - Node and Express Servers",
   "main": "server.js",
   "dependencies": {
